@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.middle{
+	width:80vw;
+	height:10vh;
+	
+
+
+	
+}
+
+.height{
+	height:20vh;
+}
+
+.container{
+	margin-bottom:20px;
+}

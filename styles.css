@@ -1,45 +1,28 @@
 /*  your css code here. If applicable */
 *{
 	padding:0px;
-	margin:0px;
+     margin:0px;
 }
-
 .middle{
 	width:80vw;
 	height:10vh;
-	
-
-
-	
 }
-
-.height{
-	height:20vh;
+#table-2{
+	height:20vh
 }
-
-.container{
-	margin-bottom:20px;
-
-
-
-	
-}
-
+#table-3{
+	height:50vh
+		}
 
 .green{
 	background-color:green;
 }
-
-.blue{
-	background-color:blue;
-}
-#table-3{
-	border:1px solid black;
+ .blue{
+	 background-color:blue
+ }
 	
-}
-.center {
-    text-align: center;
-}
-.right {
-    text-align: right;
+
+
+.container{
+	margin-bottom:20px
 }

@@ -1,113 +1,62 @@
-<!DOCTYPE html>
+<h1 style="text-align: center;">HTML Assignment 3</h1>
 
-<html>
+<div class="container">
+    <table id="table-1" class="middle" border="1">
+        <tr>
+            <td id="t11">Left</td>
+            <td id="t12" class="center">Center</td>
+            <td id="t13" class="right">Right</td>
+        </tr>
+        <tr class="center right">
+            <td>Left</td>
+            <td></td>
+            <td class="center right"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+<div class="container">
+    <table id="table-2" class="middle height" border="1">
+        <tr>
+            <th id="t21" colspan="6"></th>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" rowspan="2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+    </table>
+</div>
 
-<body>
-	<!-- the entire body must be written by student -->
-	<div class="container">
-		<table id="table-1" class="middle" border="1px">
-			<tr>
-				<th id="t11"></th>
-				<th id="t12"></th>
-				<th id="t13"></th>
-			</tr>
-
-
-			<tr class="center right">
-				<td></td>
-				<td></td>
-				<td class="center right"></td>
-			</tr>
-
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-		</table>
-	</div>
-
-	
-
-	<!--table 2  -->
-
-	<div class="container">
-		<table id="table-2" class="middle height" border="1px">
-			<tr>
-				<th  id="t21" colspan="6"></th>
-				
-			</tr>
-
-
-			<tr>
-				<td rowspan="4"></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-
-			<tr>
-				
-				<td></td>
-				<td colspan="3" rowspan="2"></td>
-				
-				<td></td>
-			</tr>
-
-			<tr>
-				
-				<td></td>
-				
-				<td></td>
-			</tr>
-
-			<tr>
-				
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-
-			<tr>
-				<td colspan="6"></td>
-				
-			</tr>
-		</table>
-	</div>
-
-
-	<!--table3  -->
-
-	<div class="container">
-		<table id="table-3" class="middle" border="1px">
-			<tr>
-				<th class="green" colspan="3"></th>
-				
-			</tr>
-  
-              <td id="t-image" colspan="3"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"></td>
-			<tr>
-				
-			</tr>
-
-			<tr>
-				<td class="blue" colspan="3"></td>
-				
-			</tr>
-		</table>
-	</div>
-
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
-</html>
+<div class="container">
+    <table id="table-3" class="middle" border="1">
+        <tr>
+            <th class="green" colspan="3"></th>
+        </tr>
+        <tr> <td id="t-image" colspan="3">
+                <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Assignment Image">
+            </td>
+        </tr>
+        <tr>
+            <td class="blue" colspan="3"></td>
+        </tr>
+    </table>
+</div>

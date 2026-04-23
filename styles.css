@@ -1,35 +1,32 @@
-*{
-	padding:0px;
-     margin:0px;
+table,th,td{
+	border:1px solid black;
+	padding:1px;
+	width:400px
 }
-.middle{
-	width:90vw
+#table-1{
+	margin-bottom:5px;
 }
 
 #table-2{
-	height:20vh
+	margin-bottom:5px;
 }
-#table-3{
-	height:50vh
-		}
-
 .green{
 	background-color:green;
 }
- .blue{
-	 background-color:blue
- }
-	
 
-
-.container{
-	margin-bottom:20px
+.red{
+	background-color:red;
 }
+
+#t-image{
+	height:100px;
+	width:100px;
+	
+}
+
 .center{
 	text-align:center;
 }
-
-
 .right{
 	text-align:right;
 }
